@@ -7,6 +7,7 @@ import {
 import Navbar from "../components/Navbar";
 import Experience from './Experience';
 import Home from './Home';
+import Others from './Others';
 
 const Routing = () => {
   return (
@@ -15,6 +16,7 @@ const Routing = () => {
         <Routes>
           <Route path='/' element={<Home/>} />
           <Route path='/experience' element={<Experience/>} />
+          <Route path='/others' element={<Others/>} />
         </Routes>
     </Router>
   );

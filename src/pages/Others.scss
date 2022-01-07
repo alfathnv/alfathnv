@@ -1,0 +1,28 @@
+.others {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 160px 120px;
+  padding-bottom: 100px;
+  
+  .content {
+    .images{
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding-bottom: 100px;
+
+      img {
+        width: 30%;
+        transition: all .5s;
+      }
+
+      img:hover {
+        -ms-transform: scale(1.1); /* IE 9 */
+        -webkit-transform: scale(1.1); /* Safari 3-8 */
+        transform: scale(1.1); 
+      }      
+    }
+  }
+}

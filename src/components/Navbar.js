@@ -14,6 +14,9 @@ function Navbar() {
         <Link to="/experience" className="link">
           <span className="links_name">Experience</span>
         </Link>
+        <Link to="/others" className="link">
+          <span className="links_name">Others</span>
+        </Link>
       </div>
       
       <div className="right">
