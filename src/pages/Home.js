@@ -1,13 +1,13 @@
 import Box from '../components/Box';
 import React from 'react';
-import './Home.scss';
 import Content from '../components/Content';
+import './Home.scss';
 
 function Home() {
   return (
     <div className="Main">
-      <Content className="content" />
-      <Box className="box" />
+      <Content />
+      <Box />
     </div>
   )
 }

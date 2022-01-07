@@ -35,7 +35,7 @@ const SpinningMesh = ({ position, color, speed, args }) => {
 
 function Box() {
   return (
-    <>
+    <div className="box" >
       <Canvas
         colorManagement
         shadowMap
@@ -78,7 +78,7 @@ function Box() {
 
         <OrbitControls />
       </Canvas>
-    </>
+    </div>
   );
 }
 
