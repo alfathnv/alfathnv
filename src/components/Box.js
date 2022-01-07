@@ -68,11 +68,11 @@ function Box() {
           </mesh>
           <SpinningMesh
             position={[0, 1, 0]}
-            color='lightblue'
+            color='crimson'
             args={[3, 2, 1]}
             speed={2}
           />
-          <SpinningMesh position={[-2, 1, -5]} color='pink' speed={6} />
+          <SpinningMesh position={[-2, 1, -5]} color='lightblue' speed={6} />
           <SpinningMesh position={[5, 1, -2]} color='pink' speed={6} />
         </group>
 

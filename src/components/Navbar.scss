@@ -6,36 +6,37 @@ header {
   display: grid;
   grid-template-columns: 50% 50%;
   z-index: 100;
-}
 
-.logo {
-  color: crimson;
-  display: flex;
-  align-items: center;
-  justify-content: left;
-  padding: 0 120px;
-  font-size: 10px;
-  height: 100%;
-}
-
-.social {
-  display: flex;
-  align-items: center;
-  justify-content: right;
-  padding: 0 120px;
-  gap: 20px;
-
-  a:link, a:visited {
-    color: rgba(255, 255, 255, .65);
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    transition: all .5s;
-  }
-
-  a:hover, a:active {
+  .left {
     color: crimson;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 0 120px;
+    height: 80px; 
+  
+    img {
+      height: 100%;
+    }
+  }
+
+  .right {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 0 120px;
+    gap: 20px;
+  
+    a:link, a:visited {
+      color: rgba(255, 255, 255, .65);
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      transition: all .5s;
+    }
+  
+    a:hover, a:active {
+      color: crimson;
+    }
   }
 }
-
-

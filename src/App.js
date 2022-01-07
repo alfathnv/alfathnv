@@ -1,14 +1,10 @@
 import React from "react";
 import "./App.scss";
-import Navbar from "./components/Navbar";
-import Home from "./pages/Home";
+import Routing from "./pages/Routing";
 
 const App = () => {
   return (
-    <>
-      <Navbar />
-      <Home />
-    </>
+    <Routing />
   );
 };
 

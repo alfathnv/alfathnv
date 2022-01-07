@@ -6,6 +6,7 @@ import './Home.scss';
 function Home() {
   return (
     <div className="Main">
+      
       <Content />
       <Box />
     </div>
