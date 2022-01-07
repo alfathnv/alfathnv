@@ -20,7 +20,20 @@
   }
 
   .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
+  }
+
+  @media screen and (max-width: 992px) {
+    .content {
+      font-size: 15px;
+
+      span {
+        font-size: 30px;
+      }
+    }
   }
 }
 
