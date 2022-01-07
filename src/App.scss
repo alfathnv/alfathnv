@@ -15,14 +15,10 @@ body,
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  overflow: hidden;
 }
 
 body {
   font-family: 'Poppins', sans-serif;
-  position: fixed;
-  overflow: hidden;
-  overscroll-behavior-y: none;
   -webkit-font-smoothing: antialiased;
   background: #1f1f1f;
   color: crimson;

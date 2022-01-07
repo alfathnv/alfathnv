@@ -14,8 +14,26 @@ header {
     justify-content: left;
     padding: 0 120px;
     height: 80px; 
+    text-decoration: none;
+
+    .link {
+      padding-right: 20px;
+    }
+
+    .link:link, .link:visited {
+      color: rgba(255, 255, 255, .65);
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      transition: all .5s;
+    }
+
+    .link:hover, .link:active {
+      color: crimson;
+    }
   
     img {
+      padding-right: 50px;
       height: 100%;
     }
   }
